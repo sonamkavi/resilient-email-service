@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./src",               // Keep rootDir pointing to src
+      "strict": true,
+      "esModuleInterop": true,
+      "useUnknownInCatchVariables": false
+    },
+    "include": [
+      "src/**/*",                         // Include all files in src
+      "tests/**/*",                       // Explicitly include all files in tests folder
+      "jest.config.ts"                    // Explicitly include the jest config file
+    ],
+    "exclude": [
+      "node_modules"                      // Exclude node_modules folder
+    ]
+  }
+  
